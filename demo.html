@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<style>
+	html, body{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+	    font-family: 'Raleway', sans-serif;
+	    color: #333;
+	    position: absolute;
+	    height: 100vh;
+	    width: 100vw;
+	}
+	.container{
+		position: relative;
+		margin: 0 auto;
+		width: 95vw;
+		max-width: 1300px;
+	}
+	h1{
+		margin: 1em 0;	
+	}
+</style>
+<link href="lib/icon-dd.css" rel="stylesheet" type="text/css">
+
+<title>IconDropdown Demo</title>
+</head>
+<body>
+<div class="container">
+	<h1>IconDropdown</h1>
+	<br/>
+	<fieldset>
+		<legend>Regular</legend>
+		<select>
+			<option value="0">Lorem</option>
+			<option value="1">Ipsum</option>
+			<option value="2">Dolor</option>			
+		</select>
+	</fieldset>
+	<br/><br/>
+	<fieldset>	
+		<legend>IconDropdown</legend>
+		<select id="icondropdown">
+			<option data-icon="<i class='fa fa-bicycle' aria-hidden='true'></i>" value="0">Lorem</option>
+			<option data-icon="<i class='fa fa-bullhorn' aria-hidden='true'></i>" value="1">Ipsum</option>
+			<option data-icon="<i class='fa fa-binoculars' aria-hidden='true'></i>" value="2">Dolor</option>			
+		</select>
+	</fieldset>	
+</div>
+
+<script defer src="jquery.min.js"></script>
+<script defer src="lib/icon-dd.js"></script>
+<script defer src="demo.js"></script>
+
+</body>
+</html>
