@@ -27,14 +27,30 @@
 	h1{
 		margin: 1em 0;	
 	}
+	a, a:visited{
+		color: #07C;
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: underline;
+	}
+	.right {	
+		float: right;
+	}
+	.link-top{
+		position: absolute;
+		right: 0;
+		top: 1em;
+	}
 </style>
-<link href="lib/icon-dd.css" rel="stylesheet" type="text/css">
+<link href="lib/icon-dd.min.css" rel="stylesheet" type="text/css">
 
 <title>IconDropdown Demo</title>
 </head>
 <body>
 <div class="container">
 	<h1>IconDropdown</h1>
+	<a class="right link-top" href="https://github.com/h3llum/icon-dropdown">GitHub</a>
 	<br/>
 	<fieldset>
 		<legend>Regular</legend>
@@ -56,7 +72,7 @@
 </div>
 
 <script defer src="jquery.min.js"></script>
-<script defer src="lib/icon-dd.js"></script>
+<script defer src="lib/icon-dd.min.js"></script>
 <script defer src="demo.js"></script>
 
 </body>

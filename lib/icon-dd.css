@@ -38,18 +38,19 @@
 	list-style-type: none;
 	padding: 0;
 	margin: 6px 0 0 -11px;
-	background: purple;
 	display: none;
 	border: 1px solid #ccc;
 	max-height: 25vh;
 	overflow-x: auto;
-	width: 100%;
+	width: auto;
+	min-width: 100%;
 }
 
 .icondd__item-list-item{
 	background: #fff;
 	padding: 7px 12px;
 	border-bottom: 1px solid #ccc;
+	white-space: nowrap;
 }
 
 .icondd__list-icon{
